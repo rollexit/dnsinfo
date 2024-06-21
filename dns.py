@@ -1,4 +1,5 @@
 import whois
+import os 
 
 def get_domain_info(domain_name):
     try:
@@ -15,3 +16,4 @@ if __name__ == "__main__":
     else:
         for key, value in domain_info.items():
             print(f"{key}: {value}")
+
